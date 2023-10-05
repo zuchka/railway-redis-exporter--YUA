@@ -7,7 +7,7 @@ nixPkgs = ['prometheus-redis-exporter']
 # cmds = ['yarn run server:build']
 
 [start]
-cmd = 'redis_exporter'
-
+cmd = 'redis_exporter --REDIS_ADDR=redis://default:kytg9aH1r9lOHIhoYU0B@containers-us-west-71.railway.app:5677'
+# redis://default:kytg9aH1r9lOHIhoYU0B@containers-us-west-71.railway.app:5677
 [variables]
 PORT = "9121"
