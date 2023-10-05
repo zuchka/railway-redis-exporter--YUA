@@ -10,4 +10,4 @@ nixPkgs = ['prometheus-redis-exporter']
 cmd = './redis_exporter'
 
 [variables]
-PORT = 9121
+PORT = "9121"
