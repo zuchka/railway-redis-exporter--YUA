@@ -1,0 +1,13 @@
+# nixpacks.toml
+
+[phases.setup]
+nixPkgs = ['prometheus-redis-exporter']
+
+# [phases.build]
+# cmds = ['yarn run server:build']
+
+[start]
+cmd = './redis_exporter'
+
+[variables]
+PORT = 9121
